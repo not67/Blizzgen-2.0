@@ -1,0 +1,9 @@
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\BlizzGen20.csproj.AssemblyReference.cache
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\BlizzGen20.csproj.SuggestedBindingRedirects.cache
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\NewBlizzGen.Form1.resources
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\NewBlizzGen.Login.resources
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\Properties.Resources.resources
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\BlizzGen20.csproj.GenerateResource.cache
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\BlizzGen20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\BlizzGen20.csproj.CoreCompileInputs.cache
+C:\Users\tjcon\Desktop\Blizz_1\obj\Debug\net48\BlizzGen20.exe.config

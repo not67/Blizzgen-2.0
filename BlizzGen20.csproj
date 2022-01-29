@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BlizzGen20</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Captcha" Version="4.4.2" />
+    <PackageReference Include="DotNetAutoUpdate" Version="1.0.4" />
+    <PackageReference Include="Faker" Version="1.2.0" />
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.2.8" />
+    <PackageReference Include="OpenQA.Selenium.Winium" Version="1.0.0.4" />
+    <PackageReference Include="RestSharp" Version="107.1.2" />
+    <PackageReference Include="YotubeBot" Version="1.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="5sim_api">
+      <HintPath>..\5sim_api.dll</HintPath>
+    </Reference>
+    <Reference Include="AnyCaptchaHelper">
+      <HintPath>..\AnyCaptchaHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="AnticaptchaNet">
+      <HintPath>..\AnticaptchaNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="AutoUpdater.NET">
+      <HintPath>..\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="WebDriver">
+      <HintPath>..\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Faker.Net.4.8">
+      <HintPath>..\Faker.Net.4.8.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
